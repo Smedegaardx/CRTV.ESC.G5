@@ -1,0 +1,47 @@
+---
+
+---
+
+<div id="cardwrapper">
+  <img src="/public/imgs/test2.png" />
+  <div id="textwrapper">
+    <p>Det skal du se! Uge 34</p>
+    <p id="date">30/09-2025</p>
+  </div>
+</div>
+
+<style>
+  #cardwrapper {
+    width: 440px;
+    height: 138px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    gap: 17px;
+  }
+
+  img {
+    width: 118px;
+    height: auto;
+  }
+
+  #textwrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  #date {
+    color: #bcbcbc;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 600;
+  }
+</style>
