@@ -1,16 +1,23 @@
 ---
-
+import Layout from "../layout/MainPage.astro";
+import Card from "../components/Cards/Card.astro";
+import HeroCard from "../components/Cards/HeroCard.astro";
+import LargeCard from "../components/Cards/LargeCard.astro";
+import SmallCard from "../components/Cards/SmallCard.astro";
+import TinyCard from "../components/Cards/TinyCard.astro";
+import "/src/styles/global.css";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <h1>Astro</h1>
+    <Card />
+  </body>
 </html>

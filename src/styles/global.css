@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(/public/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: 'Anton';
+    src: url(/public/fonts/Anton-Regular.ttf);
+}
+
+p, h4, span{
+    font-family: "Inter";
+}
+
+h1, h2, h3{
+    font-family: "Anton";
+}
