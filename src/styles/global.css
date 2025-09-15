@@ -14,3 +14,7 @@ p, h4, span{
 h1, h2, h3{
     font-family: "Anton";
 }
+
+*{
+    margin: 0;
+}
