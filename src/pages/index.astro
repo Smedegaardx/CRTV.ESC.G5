@@ -4,6 +4,8 @@ import Card from "../components/Cards/Card.astro";
 import HeroCard from "../components/Cards/HeroCard.astro";
 import SmallCard from "../components/Cards/SmallCard.astro";
 import TinyCard from "../components/Cards/TinyCard.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import "/src/styles/global.css";
 ---
 
@@ -16,7 +18,9 @@ import "/src/styles/global.css";
     <title>Astro</title>
   </head>
   <body>
+    <Header />
     <h1>Astro</h1>
     <SmallCard />
+    <Footer />
   </body>
 </html>

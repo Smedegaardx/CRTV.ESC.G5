@@ -6,6 +6,10 @@
     font-family: 'Anton';
     src: url(/public/fonts/Anton-Regular.ttf);
 }
+@font-face {
+    font-family: "Archivo";
+    src: url(/public/fonts/Archivo-VariableFont_wdth\,wght.ttf);
+}
 
 p, h4, span{
     font-family: "Inter";
@@ -17,4 +21,8 @@ h1, h2, h3{
 
 *{
     margin: 0;
+}
+
+html{
+    background-color: #FBF7F4;
 }
