@@ -1,15 +1,15 @@
 ---
-
+const { tag, title, src } = Astro.props;
 ---
 
 <div id="cardwrapper">
   <div id="imgwrapper">
-    <img src="/public/imgs/testbillede.png" />
+    <img src={src} />
   </div>
   <div id="textwrapper">
     <div>
-      <p>Takeover Thursday – A Visual Diary of a Model</p>
-      <h1>WHAT CAN'T I MISS IN BERLIN AS A CREATIVE FIRST-TIMER?</h1>
+      <p>{tag}</p>
+      <h1>{title}</h1>
     </div>
   </div>
 </div>

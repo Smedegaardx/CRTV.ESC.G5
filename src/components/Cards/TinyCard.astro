@@ -1,12 +1,12 @@
 ---
-
+const { date, title, src } = Astro.props;
 ---
 
 <div id="cardwrapper">
-  <img src="/public/imgs/test2.png" />
+  <img src={src} />
   <div id="textwrapper">
-    <p>Det skal du se! Uge 34</p>
-    <p id="date">30/09-2025</p>
+    <p>{title}</p>
+    <p id="date">{date}</p>
   </div>
 </div>
 
