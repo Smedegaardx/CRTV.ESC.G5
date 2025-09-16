@@ -1,9 +1,13 @@
+---
+const { tag, title, src } = Astro.props;
+---
+
 <div id="cardwrapper">
   <div id="imgwrapper">
-    <img src="/imgs/testbillede.png" />
+    <img src={src} />
   </div>
-  <p id="tag">Tag</p>
-  <p>Hun er blevet latterliggjort i årevis. Nu gør Marie Munk overbevisende comeback</p>
+  <p id="tag">{tag}</p>
+  <p>{title}</p>
 </div>
 
 <style>
