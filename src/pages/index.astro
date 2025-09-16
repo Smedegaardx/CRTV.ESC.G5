@@ -2,7 +2,6 @@
 import Layout from "../layout/MainPage.astro";
 import Card from "../components/Cards/Card.astro";
 import HeroCard from "../components/Cards/HeroCard.astro";
-import LargeCard from "../components/Cards/LargeCard.astro";
 import SmallCard from "../components/Cards/SmallCard.astro";
 import TinyCard from "../components/Cards/TinyCard.astro";
 import "/src/styles/global.css";
@@ -18,14 +17,6 @@ import "/src/styles/global.css";
   </head>
   <body>
     <h1>Astro</h1>
-    <TinyCard />
+    <SmallCard />
   </body>
 </html>
-
-<style>
-  #grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-  }
-</style>
