@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Inter';
-    src: url(/public/fonts/Inter-VariableFont_opsz\,wght.ttf);
+    src: url(/fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 @font-face {
     font-family: 'Anton';
-    src: url(/public/fonts/Anton-Regular.ttf);
+    src: url(/fonts/Anton-Regular.ttf);
 }
 @font-face {
     font-family: "Archivo";
-    src: url(/public/fonts/Archivo-VariableFont_wdth\,wght.ttf);
+    src: url(/fonts/Archivo-VariableFont_wdth\,wght.ttf);
 }
 
 p, h4, span{
