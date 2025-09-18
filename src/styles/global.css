@@ -26,3 +26,13 @@ h1, h2, h3{
 html{
     background-color: #FBF7F4;
 }
+
+main{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 5rem auto 5rem;
+    
+}
